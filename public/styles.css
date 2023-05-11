@@ -1,0 +1,32 @@
+#gameBoard {
+    /* border: 1px solid red; */
+    /* padding: 0px !important; */
+    position: relative;
+    top: -96%;
+    left: 3%;
+}
+
+body {
+
+    overflow: hidden;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* Hide scrollbars */
+}
+
+.backGroundImage {
+    filter: invert(48%) sepia(13%) saturate(3207%) hue-rotate(130deg) brightness(95%) contrast(80%);
+
+}
+
+.gameOver {
+    width: 800px;
+    height: 600px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
